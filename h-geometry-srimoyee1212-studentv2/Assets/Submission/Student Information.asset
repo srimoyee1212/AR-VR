@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f802356aafc52d4095807079857ea9f, type: 3}
+  m_Name: Student Information
+  m_EditorClassIdentifier: 
+  lastName: Mukhopadhyay
+  firstName: Srimoyee
+  ID: sm2437
+  Username: srimoyee1212
+  repoURL: https://github.com/cs5650-2023fa/h-geometry-srimoyee1212
+  videoURL: https://drive.google.com/file/d/1zqvzM0VQySUqy_yr_zzIu3r1qm_XEbdt/view?usp=drive_link
+  workSummary: 'I think this assignment was a great way to get started with Unity.
+    As a complete beginner to Unity, I faced challenges with the setup and connecting
+    to Rider. I also faced challenges in viewing the unit tests on Rider. My approach
+    to this assignment was one of an inquisitive learner. I looked into all of the
+    assignment repository folders and files, then checked the assignment instructions
+    on GitHub and then proceeded with the assignment. As I am also unfamiliar with
+    C#, so I did a lot of Google search to find relevant in-built functions. I also
+    read through certain parts of the assigned textbook to understand and implement
+    the concepts. '

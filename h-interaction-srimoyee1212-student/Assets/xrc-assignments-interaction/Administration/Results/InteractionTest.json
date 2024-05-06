@@ -1,0 +1,62 @@
+{
+    "m_TestSuiteName": "XRC.Assignments.Interaction.Tests.InteractionTest",
+    "m_PassCount": 11,
+    "m_FailCount": 0,
+    "m_TestResults": [
+        {
+            "m_TestName": "Docking_DistanceThresholdCorrect",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "Docking_RotationThresholdCorrect",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "FarMoving_DirectionAndDistanceCorrect",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "FarMoving_EdgeCasesChecked",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "FarRotating_AngleCorrect",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "FarRotating_AxisCorrect",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "Grabing_ParentUpdated",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "Grabing_PositionRotationAligned",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "NearScaling_MinMaxClamped",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "NearScaling_ScaleCorrect",
+            "m_Result": "Passed",
+            "m_Message": ""
+        },
+        {
+            "m_TestName": "Releasing_ParentReset",
+            "m_Result": "Passed",
+            "m_Message": ""
+        }
+    ]
+}

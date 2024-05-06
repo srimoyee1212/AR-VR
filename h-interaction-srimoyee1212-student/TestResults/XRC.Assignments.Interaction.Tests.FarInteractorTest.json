@@ -1,0 +1,31 @@
+{
+    "Class": "XRC.Assignments.Interaction.Tests.FarInteractorTest",
+    "ID": "1066",
+    "Total": 4,
+    "Passed": 4,
+    "Failed": 0,
+    "Skipped": 0,
+    "Inconclusive": 0,
+    "Tests": [
+        {
+            "Test": "FarManipulationMove_DirectionAndDistanceCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "FarManipulationMove_EdgeCasesChecked",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "FarManipulationRotate_AngleIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "FarManipulationRotate_AxisIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        }
+    ]
+}

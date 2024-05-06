@@ -1,0 +1,31 @@
+{
+    "Class": "XRC.Assignments.Locomotion.Tests.TeleportationFacingDiretionTest",
+    "ID": "1092",
+    "Total": 4,
+    "Passed": 4,
+    "Failed": 0,
+    "Skipped": 0,
+    "Inconclusive": 0,
+    "Tests": [
+        {
+            "Test": "BaseCaseIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "BothInputsAreCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "HandPointingDirectionIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "InputVectorIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        }
+    ]
+}

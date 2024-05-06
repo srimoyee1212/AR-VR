@@ -1,0 +1,75 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Generate Assignment Report
+env:
+  REPOURI: ${{ github.repository }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  REPONAME: ${{ github.event.repository.name }}
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "solution", "student"]
+  pull_request:
+    branches: [ "solution", "student" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  generate-submission:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo "Downloading texlive"
+          sudo apt-get update
+          sudo apt-get install texlive-base \
+          texlive-binaries \
+          texlive-latex-base \
+          texlive-latex-recommended \
+          texlive-latex-extra \
+          texlive-xetex
+          
+          echo "Clone (student) Repo Down"
+          echo $REPONAME
+          echo "git clone https://user:$GITHUB_TOKEN@github.com/$REPOURI"
+          echo $REPONAME 
+          echo $HOME
+          pwd
+          ls -lah
+          echo "enter repo itself"
+          echo "numbers represent report points and number of tests"
+          python3 .github/workflows/generate-report.py 100 16
+          
+          
+          echo "look at the leftovers..."
+          cat texname
+          cat pdfname
+          ls -lah
+
+          my_texname=$(cat texname)
+          my_pdfname=$(cat pdfname)
+          
+          echo " "
+          cat $my_texname
+          echo " "
+          
+          fc-list
+
+          echo "Making LaTeX"
+          xelatex $my_texname
+          cp $my_pdfname Assets/Submission/
+          
+          ls -lah
+          
+          git config user.name xrc-internal
+          git config user.email wjl88@cornell.edu
+          git add Assets/Submission/$my_pdfname
+          git commit -m "generated Submission report"
+          git push

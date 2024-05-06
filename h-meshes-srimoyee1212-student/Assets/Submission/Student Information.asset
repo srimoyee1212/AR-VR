@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f802356aafc52d4095807079857ea9f, type: 3}
+  m_Name: Student Information
+  m_EditorClassIdentifier: 
+  lastName: Mukhopadhyay
+  firstName: Srimoyee
+  ID: sm2437
+  Username: srimoyee1212
+  repoURL: https://github.com/cs5650-2023fa/h-meshes-srimoyee1212
+  videoURL: https://drive.google.com/file/d/1hwUWglLHqJ0iHgGxeJtRirDdl4ELBK6O/view?usp=drive_link
+  workSummary: My approach to this assignment was similar to my approach to the previous
+    assignment - exploring and doing one function at a time. However, this time I
+    was more familiar with Unity and Rider and it took me much lesser time to complete
+    the assignment. One of the main challenges in this assignment was selecting the
+    correct Bounds so that the mesh and the object move as expected in the correct
+    directions. In my case I was initially not determining the bounds for z-axis
+    correctly and that was making my game look different. The mistake I was making
+    was that I did not assume Unity's left handed system. Once that was fixed, another
+    issue was that all the meshes were clustered below shape 5. This was due to not
+    creating correct transforms. This was relatively easier to fix. Overall I think
+    the assignment provided a good learning experience.

@@ -1,0 +1,21 @@
+{
+    "Class": "XRC.Assignments.Geometry.Tests.VectorTests",
+    "ID": "1084",
+    "Total": 2,
+    "Passed": 2,
+    "Failed": 0,
+    "Skipped": 0,
+    "Inconclusive": 0,
+    "Tests": [
+        {
+            "Test": "ColorIsCorrectWhenBehindTarget",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "ColorIsCorrectWhenDirectToTarget",
+            "Result": "Passed",
+            "Message": ""
+        }
+    ]
+}

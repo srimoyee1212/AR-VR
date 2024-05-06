@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f802356aafc52d4095807079857ea9f, type: 3}
+  m_Name: Student Information
+  m_EditorClassIdentifier: 
+  lastName: Mukhopadhyay
+  firstName: Srimoyee
+  ID: sm2437
+  Username: srimoyee1212
+  repoURL: https://github.com/cs5650-2023fa/h-rendering-srimoyee1212
+  videoURL: https://drive.google.com/file/d/1CZPp4Sb63HPvSoOyJeyuKdNCm--gYBlO/view?usp=sharing
+  workSummary: My approach to this assignment was doing one function at a time and
+    viewing the effects in Game mode. This was a slightly tricky assignment and I
+    had to check the textbook for reference several times. One interesting thing
+    is the lighting on the floor. It took a while for me to understand how the view
+    direction and the ray direction affected the floor lighting. Another thing that
+    took some pre-work to figure out was the role of the Raycast "hit" parameter
+    in the mapped normal calculation to covert between local and world coordinates.
+    Overall I think it was a very fun assignment to do though there is definitely
+    a performance lag issue which is device based.

@@ -1,0 +1,31 @@
+{
+    "Class": "XRC.Assignments.Interaction.Tests.GrabInteractableTest",
+    "ID": "1071",
+    "Total": 4,
+    "Passed": 4,
+    "Failed": 0,
+    "Skipped": 0,
+    "Inconclusive": 0,
+    "Tests": [
+        {
+            "Test": "Grab_ParentUpdatedCorrectly",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "GrabAttachTransform_ParentUpdatedCorrectly",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "GrabAttachTransform_TransformAlignedCorrectly",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "ReleaseResetParent_ParentResetCorrectly",
+            "Result": "Passed",
+            "Message": ""
+        }
+    ]
+}

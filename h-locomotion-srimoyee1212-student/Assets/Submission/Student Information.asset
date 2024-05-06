@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f802356aafc52d4095807079857ea9f, type: 3}
+  m_Name: Student Information
+  m_EditorClassIdentifier: 
+  lastName: Mukhopadhyay
+  firstName: Srimoyee
+  ID: sm2437
+  Username: srimoyee1212
+  repoURL: https://github.com/cs5650-2023fa/h-locomotion-srimoyee1212
+  videoURL: https://drive.google.com/file/d/10TGw8rUsMLh1qFx6S3dNr35mnkHgD8QF/view?usp=sharing
+  apkURL: https://drive.google.com/file/d/1uFS91TsetOC2fMicP2lrsxSFgp-OTIvK/view?usp=drive_link
+  workSummary: The code for this assignment was pretty straight-forward with most
+    of it available on the textbook. The device setup and use were definitely the
+    painpoints. Initially, the Oculus device did not detect on Unity. Then, I had
+    issues in building the APK into Quest 2.  As I have never worked with a VR device
+    before this, it was quite the learning curve for me, not just the setup but also
+    operating the controllers. I also felt motion-sickness during some parts of the
+    game.

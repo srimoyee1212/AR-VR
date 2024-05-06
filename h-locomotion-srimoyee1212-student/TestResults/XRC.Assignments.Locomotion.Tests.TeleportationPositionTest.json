@@ -1,0 +1,36 @@
+{
+    "Class": "XRC.Assignments.Locomotion.Tests.TeleportationPositionTest",
+    "ID": "1096",
+    "Total": 5,
+    "Passed": 5,
+    "Failed": 0,
+    "Skipped": 0,
+    "Inconclusive": 0,
+    "Tests": [
+        {
+            "Test": "AllInputsAreCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "BaseCaseIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "StartingCameraPositionIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "StartingRigPositionIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        },
+        {
+            "Test": "TargetPositionIsCorrect",
+            "Result": "Passed",
+            "Message": ""
+        }
+    ]
+}
